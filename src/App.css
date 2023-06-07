@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
 }
@@ -36,3 +40,56 @@
     transform: rotate(360deg);
   }
 }
+ul{
+  background-color: rgb(29, 28, 28);
+  text-align: left;
+  padding: 10px;
+  
+}
+a {
+  text-decoration: none;
+  color: rgb(197, 190, 190);
+}
+li{
+  margin-left: 10px;
+  display: inline;
+  padding: 10px;
+}
+
+li:hover{
+  background-color: rgb(159, 108, 21);
+  padding:  10px;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.column{
+  width: 33%;
+}
+.card{
+  margin: 5px 0px;
+  background-color: rgb(206, 202, 202);
+}
+img{
+  width: 100%;
+}
+.title{
+  color: rgb(123, 123, 124);
+  padding: 5px;
+}
+button {
+  padding: 5px;
+  color: aliceblue;
+  background-color: black;
+  min-width: 100%;
+}
+h4{
+  color: aliceblue;
+  background-color: rgb(172, 128, 15);
+  padding: 8px;
+}
+
+
+
